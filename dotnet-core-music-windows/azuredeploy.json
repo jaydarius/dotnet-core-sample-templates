@@ -25,7 +25,10 @@
     },
     "publicipaddressDnsName": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "metadata": {
+        "description": "The name set under AZ domain (no custom DNS required)"
+      }
     }
   },
   "variables": {
